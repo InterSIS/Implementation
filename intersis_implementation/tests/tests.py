@@ -6,4 +6,4 @@ class DummyTests(TestCase):
         self.assertTrue(True)
 
     def test_should_fail(self):
-        self.assertTrue(True)
+        self.assertTrue(False)
