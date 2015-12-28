@@ -1,0 +1,17 @@
+language: python
+
+sudo: false
+
+env:
+  - TOX_ENV=test
+  - TOX_ENV=lint
+  - TOX_ENV=coveralls
+
+matrix:
+  fast_finish: true
+
+install:
+  - pip install tox
+
+script:
+  - tox -e $TOX_ENV

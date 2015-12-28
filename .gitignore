@@ -1,0 +1,16 @@
+intersis_implementation/implementation/secret_settings.py
+
+*/db.sqlite3
+
+*.pyc
+.*swp
+*~
+
+.idea/
+*.komodoproject
+
+.coverage
+
+.tox/
+dist/
+*.egg-info/
