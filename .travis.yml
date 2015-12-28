@@ -3,7 +3,7 @@ language: python
 sudo: false
 
 env:
-  - TOX_ENV=test
+  - TOX_ENV=pytests
   - TOX_ENV=lint
   - TOX_ENV=coveralls
 
