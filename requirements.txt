@@ -3,4 +3,8 @@ coverage==4.0.3
 django-rest-encrypted-lookup==0.10.1
 django-rest-serializer-field-permissions==1.0.0
 djangorestframework==3.3.2
+pluggy==0.3.1
+py==1.4.31
 pycrypto==2.6.1
+tox==2.3.1
+virtualenv==13.1.2
